@@ -14,4 +14,9 @@ body {
   align-items: center;
   justify-content: space-between;
   color: #fff;
+  margin-left: 20rem;
+}
+
+h1 {
+  font-size: 60px;
 }
