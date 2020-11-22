@@ -14,9 +14,20 @@ body {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  margin-left: 20rem;
+  margin: 5rem 0 0 20rem;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.loads {
+  font-size: 22px;
+  color: #fff;
+  margin: 2rem 0 0 20rem;
+}
+
+.base {
+  margin: 5rem 20rem;
 }
