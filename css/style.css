@@ -30,4 +30,17 @@ h1 {
 
 .base {
   margin: 5rem 20rem;
+  display: flex;
+}
+
+.black {
+  height: 25rem;
+  width: 70rem;
+  background-color: black;
+}
+
+.left, .right {
+  height: 3rem;
+  width: 3rem;
+  background-color: #fff;
 }
