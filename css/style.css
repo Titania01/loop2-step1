@@ -17,9 +17,13 @@ body {
   margin: 5rem 0 0 20rem;
 }
 
-h1 {
+h1, h2 {
   font-size: 75px;
   font-weight: 900;
+}
+ 
+h2 {
+  opacity: 0.5;
 }
 
 .loads {
@@ -42,6 +46,7 @@ h1 {
   height: 25rem;
   width: 23rem;
   background-color:rgb(62, 60, 61);
+  position: relative;
 }
 
 .black2 {
@@ -73,14 +78,19 @@ h1 {
 }
 
 .start {
+  position: absolute;
   background: black;
-  height: 3.5rem;
+  height: 4rem;
   width: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 9rem 2rem 0 1.5rem;
+  border-radius: 5px;
+  left: 1.6rem;
+  top: 23rem;
 }
+
+.
 
 .start > p {
   color: #fff;
