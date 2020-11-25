@@ -72,6 +72,12 @@ h1 {
   font-weight: 600;
 }
 
+.start {
+  background: black;
+  height: 2rem;
+  width: 10rem;
+}
+
 .left, .right {
   height: 8rem;
   width: 8rem;
