@@ -90,15 +90,15 @@ h2:hover {
 .start {
   position: absolute;
   background: black;
-  height: 4rem;
+  height: 5rem;
   width: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
   left: 1.6rem;
-  top: 23rem;
-  transition: 0.5s;
+  top: 22.5rem;
+  transition: 0.3s;
 }
 
 .start:hover {
@@ -108,7 +108,8 @@ h2:hover {
 
 .start > p {
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 .left, .right {
@@ -119,6 +120,16 @@ h2:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.left:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.right:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .arr {
