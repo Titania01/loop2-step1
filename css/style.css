@@ -56,6 +56,22 @@ h1 {
   background-color:rgb(32, 30, 31);
 }
 
+.time {
+  width: 10rem;
+  margin: 10rem 15rem 0 5rem;
+}
+
+.one {
+  color: rgb(222, 138, 137);
+  font-size: 20px;
+}
+
+.two {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .left, .right {
   height: 8rem;
   width: 8rem;
