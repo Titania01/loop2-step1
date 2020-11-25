@@ -7,6 +7,7 @@
 
 body {
   background: rgb(222, 138, 137);
+  overflow-x: hidden;
 }
 
 .top {
@@ -24,7 +25,16 @@ h1, h2 {
  
 h2 {
   opacity: 0.5;
+  position: relative;
+  right: -1rem;
+
 }
+
+h2:hover {
+  cursor: pointer;
+  opacity: 0.65;
+}
+
 
 .loads {
   font-size: 22px;
@@ -88,9 +98,13 @@ h2 {
   border-radius: 5px;
   left: 1.6rem;
   top: 23rem;
+  transition: 0.5s;
 }
 
-.
+.start:hover {
+  cursor: pointer;
+  margin-top: -5px;
+} 
 
 .start > p {
   color: #fff;
