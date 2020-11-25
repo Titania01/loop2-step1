@@ -33,11 +33,27 @@ h1 {
   display: flex;
 }
 
+.black {
+  display: flex;
+  
+}
+
 .black1 {
   height: 25rem;
   width: 23rem;
   background-color:rgb(62, 60, 61);
-  opacity: 0.85;
+}
+
+.black2 {
+  height: 25rem;
+  width: 23rem;
+  background-color:rgb(53, 51, 52);
+}
+
+.black3 {
+  height: 25rem;
+  width: 23rem;
+  background-color:rgb(32, 30, 31);
 }
 
 .left, .right {
